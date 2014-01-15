@@ -65,4 +65,6 @@ Then you can cd into this directory:
     18:07:38 web.1  | exited with code 1
     18:07:38 system | sending SIGTERM to all processes
 
-    
+This is in the spirit of [dvm](https://github.com/fnichol/dvm) - which is docker without the octohost web focus.
+
+You should be able to use both dvm and [octohost](https://github.com/octohost/octohost) using these instructions.
