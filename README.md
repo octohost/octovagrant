@@ -8,6 +8,21 @@ Some helpful files when using octohost with Vagrant.
     brew install docker
     brew install direnv # More info here: https://github.com/zimbatm/direnv
     
+
+There are two ways to proceed from here:
+
+### Use the already built Vagrant box.
+
+    vagrant up # The box will be downloaded, verified and installed.
+    vagrant ssh -c "curl https://github.com/{your-username}.keys >> /home/vagrant/.ssh/authorized_keys"
+    cat ~/.ssh/{your-key.pub} | ssh vagrant@server.octodev.io "sudo gitreceive upload-key {your-name}"
+    git clone https://github.com/octohost/harp.git && cd harp
+    git remote add octo git@serve.octodev.io:harp-test.git
+    git push octo master
+    lynx http://harp-test.octodev.io
+
+### Build your own box using Chef.
+
 Once you have your octohost built and the box installed using [these instructions](https://github.com/octohost/octohost-cookbook)
 
 Then you can cd into this directory:
