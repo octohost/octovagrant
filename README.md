@@ -25,6 +25,8 @@ There are two ways to proceed from here:
 
 Once you have your octohost built and the box installed using [these instructions](https://github.com/octohost/octohost-cookbook)
 
+#### Once you've built it.
+
 Then you can cd into this directory:
 
     [] darron@~/Dropbox/src: cd octovagrant/
