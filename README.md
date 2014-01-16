@@ -17,7 +17,7 @@ There are two ways to proceed from here:
     vagrant ssh -c "curl https://github.com/{your-username}.keys >> /home/vagrant/.ssh/authorized_keys"
     cat ~/.ssh/{your-key.pub} | ssh vagrant@server.octodev.io "sudo gitreceive upload-key {your-name}"
     git clone https://github.com/octohost/harp.git && cd harp
-    git remote add octo git@serve.octodev.io:harp-test.git
+    git remote add octo git@server.octodev.io:harp-test.git
     git push octo master
     lynx http://harp-test.octodev.io
 
