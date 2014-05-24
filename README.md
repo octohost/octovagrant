@@ -9,7 +9,7 @@ Some helpful files when using octohost with Vagrant.
     brew install direnv # More info here: https://github.com/zimbatm/direnv
 
 
-NOTE: If you are using Vagrant 1.5+, the Vagrantfile will work without modification. If you're using < 1.5 then you can find the necessary URL at [Vagrant Cloud](https://vagrantcloud.com/darron/octohost/versions).
+NOTE: If you are using Vagrant 1.6+, the Vagrantfile will work without modification. If you're using < 1.6 then you can find the necessary URL at [Vagrant Cloud](https://vagrantcloud.com/darron/octohost/versions).
 
 There are two ways to proceed from here:
 
